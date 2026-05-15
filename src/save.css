@@ -1,0 +1,33 @@
+.editui{
+    display: none;
+}
+.pu{
+    display: none;
+}
+canvas{
+    display: none;
+}
+
+.textmain{
+    width: 100%;
+}
+@page {
+    margin: 1cm;
+}
+* {
+    margin: 0!important;
+    padding: 0!important;
+    border: none!important;
+    color: black!important;
+
+}
+br:nth-child(2n) {
+    display: none;
+}
+h3{
+    padding: 1rem 0!important;
+}
+
+button{
+    display: none!important;
+}

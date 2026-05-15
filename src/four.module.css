@@ -1,0 +1,53 @@
+.main {
+    width: 500px;
+    height: 700px;
+    border: 2px solid black;
+    /* margin-left: 400px; */
+    margin: 0 auto;
+    border-radius: 10px;
+    color: white;
+    background-size: cover;
+    background-image: url("https://img3.wallspic.com/crops/0/0/4/9/6/169400/169400-smoke-plant-purple-petal-water-3240x5760.jpg");
+}
+
+.heading {
+    border-bottom: 2px solid lightgreen;
+    padding: 40px;
+    text-align: center;
+}
+
+.sec {
+    padding: 35px;
+}
+
+.boots {
+    width: 380px;
+
+}
+
+.level {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    padding-left: 50px;
+}
+
+.persontage {
+    width: 40px;
+    height: 30px;
+    border: 2px solid lightpink;
+    border-radius: 5px;
+    background-color: lightpink;
+    flex-direction: row;
+    margin-right: 4rem;
+    float: right;
+    padding: 5px;
+    font-size: small;
+
+}
+
+.loop {
+    width: 100%;
+    display: grid;
+    /* place-content: center; */
+}

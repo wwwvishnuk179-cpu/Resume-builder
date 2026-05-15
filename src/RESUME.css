@@ -1,0 +1,68 @@
+.main-1{
+    width: 500px;
+    /* height: 730px; */
+    border: 2px solid black;
+    /* margin-left: 400px; */
+    /* margin: 0 auto; */
+    color: white;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url("https://img3.wallspic.com/crops/0/0/4/9/6/169400/169400-smoke-plant-purple-petal-water-3240x5760.jpg");
+    
+}
+.four-button{
+    display: flex;
+    gap: 25px;
+    justify-content: space-evenly;
+    width: 500px;
+    margin-left: calc(50% - 500px);
+}
+.personal{
+    text-align: center;
+   border-bottom: 2px solid black;
+}
+.details{
+    padding: 40px;
+}
+.mail-phone{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.paragraph{
+   field-sizing: content;
+
+    border-radius: 30px;
+    padding: 15px;
+    background-color: lightslategray;
+    resize: none;
+}
+
+
+
+.ph{
+    display: flex;
+    flex-direction: column;
+}
+.mail{
+     display: flex;
+    flex-direction: column;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.details input {
+    border-radius: 5px;
+    padding: 5px;
+}
+.canvas {
+  position:fixed;
+  top:0;
+  left:0;
+  height:100vh;
+  width:100vw;
+  z-index: 0;
+}
