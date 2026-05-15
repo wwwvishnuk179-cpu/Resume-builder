@@ -142,7 +142,7 @@ function App() {
       <canvas ref={canvasRef} ></canvas>
 
       <resumecontext.Provider value={{ resume, setresume }}>
-        <BrowserRouter>
+        <BrowserRouter basename='Resume-builder'>
           <nav>
             <Nav />
 
