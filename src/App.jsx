@@ -168,7 +168,7 @@ function App() {
 }
 function Nav() {
   const navigate = useNavigate()
-  return 
+  return (
   <div className='pu'>
   <div className='four-button' style={{ position: "relative", zIndex: "1" }}>
     <button type="button" className="btn btn-dark" style={{ borderRadius: "10px" }} onClick={() => navigate('/')}>personal</button>
@@ -176,6 +176,6 @@ function Nav() {
     <button type="button" className="btn btn-dark" style={{ borderRadius: "10px" }} onClick={() => navigate('third')}>experience</button>
     <button type="button" className="btn btn-dark" style={{ borderRadius: "10px" }} onClick={() => navigate('four')}>skill</button>
   </div>
-  </div>
+  </div>)
 }
 export default App
